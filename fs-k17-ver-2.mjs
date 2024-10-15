@@ -14,12 +14,6 @@ req.method = METHOD;
 req.headers = headers;
 req.body = JSON.stringify(BODY);
 
-let response = await fetch(url, {
-  method: METHOD,
-  headers: headers,
-  body: JSON.stringify(BODY),
-});
-
 const data = await req.loadJSON();
 let result = '';
 
