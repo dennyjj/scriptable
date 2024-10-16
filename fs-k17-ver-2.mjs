@@ -31,7 +31,7 @@ if (data.routeStatusRemarkContent === '停止服務') {
 
 const noti = new Notification();
 noti.title = title;
-noti.message = message;
-noti.presentNotification();
+noti.body = message;
+noti.schedule();
 
 Script.complete();
