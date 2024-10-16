@@ -23,7 +23,12 @@ if (data.routeStatusRemarkContent === '停止服務') {
   const buses = data.busStop.find((bs) => bs.busStopId === FS_BUS_STOP_ID).bus;
   const firstBus = buses[0];
   const secondBus = buses[1];
-  result = `下班車仲有幾耐走\n1) ${firstBus.departureTimeText}\n2) ${secondBus.departureTimeText}`;
+  result = `1) ${firstBus.departureTimeText}\n2) ${secondBus.departureTimeText}`;
 }
 
-return result;
+const noti = new Notification();
+noti.title = 'K17下班車仲有幾耐走';
+noti.message = result;
+noti.presentNotification();
+
+Script.complete();
