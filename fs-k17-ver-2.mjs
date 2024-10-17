@@ -1,3 +1,5 @@
+//todo: parameterize bus stop id and route name
+
 const url = 'https://rt.data.gov.hk/v1/transport/mtr/bus/getSchedule';
 const headers = {
   'Content-Type': 'application/json',
