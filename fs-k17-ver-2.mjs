@@ -1,5 +1,6 @@
 //todo: parameterize bus stop id and route name
 
+// default config
 const url = 'https://rt.data.gov.hk/v1/transport/mtr/bus/getSchedule';
 const headers = {
   'Content-Type': 'application/json',
@@ -11,17 +12,22 @@ const BODY = {
   routeName: 'K17',
 };
 
+// array of texts passed from shortcut
+// should be update to route
+const params = args.plainTexts;
+
+// send request to server
 const req = new Request(url);
 req.method = METHOD;
 req.headers = headers;
 req.body = JSON.stringify(BODY);
-
 const data = await req.loadJSON();
+
+// compose notification and schedule to user
 let title = '';
 let message = '';
-
 if (data.routeStatusRemarkContent === '停止服務') {
-  title = 'Server收工夠皮';
+  title = 'Server停止服務';
   message = `${data.routeStatusRemarkContent}\n${data.footerRemarks}`;
 } else {
   const buses = data.busStop.find((bs) => bs.busStopId === FS_BUS_STOP_ID).bus;
@@ -36,4 +42,5 @@ noti.title = title;
 noti.body = message;
 noti.schedule();
 
+// complete script
 Script.complete();
