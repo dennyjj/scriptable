@@ -26,7 +26,7 @@ const data = await req.loadJSON();
 // compose notification and schedule to user
 let title = '';
 let message = '';
-if (data.routeStatusRemarkContent === '停止服務') {
+if (!data.busTop.length) {
   title = 'Server停止服務';
   message = `${data.routeStatusRemarkContent}\n${data.footerRemarks}`;
 } else {
