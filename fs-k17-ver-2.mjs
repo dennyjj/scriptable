@@ -15,6 +15,8 @@ const BODY = {
 // array of texts passed from shortcut
 // should be update to route
 const params = args.plainTexts;
+const routeName = params[0];
+const busStopId = params[1];
 
 // send request to server
 const req = new Request(url);
