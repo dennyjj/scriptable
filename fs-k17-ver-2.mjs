@@ -5,7 +5,7 @@ const url = 'https://rt.data.gov.hk/v1/transport/mtr/bus/getSchedule';
 const headers = {
   'Content-Type': 'application/json',
 };
-const FS_BUS_STOP_ID = 'K17-D010';
+let FS_BUS_STOP_ID = 'K17-D010';
 const METHOD = 'POST';
 const BODY = {
   language: 'zh',
@@ -15,8 +15,13 @@ const BODY = {
 // array of texts passed from shortcut
 // should be update to route
 const params = args.plainTexts;
-const routeName = params[0];
-const busStopId = params[1];
+if (params.length) {
+  const routeName = params[0];
+  const busStopId = params[1];
+
+  BODY.routeName = routeName;
+  FS_BUS_STOP_ID = busStopId;
+}
 
 // send request to server
 const req = new Request(url);
