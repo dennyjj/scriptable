@@ -1,0 +1,44 @@
+[
+  {
+    "routeName": "K17",
+    "outbound": [
+      {
+        "stationId": "K17-U010",
+        "stationNameChi": "大埔墟站",
+        "stationNameEng": "Tai Po Market Station"
+      },
+      {
+        "stationId": "K17-U020",
+        "stationNameChi": "大埔中心第五期",
+        "stationNameEng": "Tai Po Centre Phase 5"
+      },
+      {
+        "stationId": "K17-U030",
+        "stationNameChi": "怡雅苑",
+        "stationNameEng": "Yee Nga Court"
+      },
+      {
+        "stationId": "K17-U040",
+        "stationNameChi": "富善",
+        "stationNameEng": "Fu Shin"
+      }
+    ],
+    "inbound": [
+      {
+        "stationId": "K17-D010",
+        "stationNameChi": "富善",
+        "stationNameEng": "Fu Shin"
+      },
+      {
+        "stationId": "K17-D020",
+        "stationNameChi": "新達廣場",
+        "stationNameEng": "Uptown Plaza"
+      },
+      {
+        "stationId": "K17-D030",
+        "stationNameChi": "大埔墟站",
+        "stationNameEng": "Tai Po Market Station"
+      }
+    ]
+  }
+]
