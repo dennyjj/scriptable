@@ -1,5 +1,3 @@
-//todo: parameterize bus stop id and route name
-
 // default config
 const url = 'https://rt.data.gov.hk/v1/transport/mtr/bus/getSchedule';
 const headers = {
