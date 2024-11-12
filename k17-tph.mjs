@@ -20,7 +20,7 @@ const data = await req.loadJSON();
 // compose notification and schedule to user
 let title = '';
 let message = '';
-if (!data.busTop.length) {
+if (!data.busStop || !data.busTop.length) {
   title = 'K17停止服務';
   message = `${data.routeStatusRemarkContent}\n${data.footerRemarks}`;
 } else {
