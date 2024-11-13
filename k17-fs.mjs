@@ -1,4 +1,4 @@
-//todo: parameterize bus stop id and route name
+// Next k17 bus depart from fu shin to tai po market station for Scriptable
 
 // default config
 const url = 'https://rt.data.gov.hk/v1/transport/mtr/bus/getSchedule';
