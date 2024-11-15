@@ -15,3 +15,9 @@ https://opendata.mtr.com.hk/doc/MTR_BUS_API_Spec_v1.2.pdf
 ### MTR Bus Data Dictionary
 
 https://opendata.mtr.com.hk/doc/MTR_BUS_DataDictionary_v1.10.pdf
+
+### Getting Started
+
+Install Scriptable on your iPhone
+Open Shortcuts
+TODO
