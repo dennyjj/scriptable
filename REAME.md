@@ -19,5 +19,11 @@ https://opendata.mtr.com.hk/doc/MTR_BUS_DataDictionary_v1.10.pdf
 ### Getting Started
 
 Install Scriptable on your iPhone
+Add script
+Paste the script from .mjs files
+Run the script and there should be notification from the app
+Feel free to modify the scripts
+
+(Optional)
 Open Shortcuts
 TODO
