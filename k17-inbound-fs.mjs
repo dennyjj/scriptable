@@ -14,6 +14,7 @@ const BODY = {
 
 // array of texts passed from shortcut
 // should be update to route
+// on hold as it is quite tedious for user to update manually
 const params = args.plainTexts;
 if (params.length) {
   const routeName = params[0];
