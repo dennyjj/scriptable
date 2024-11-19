@@ -25,5 +25,6 @@ Run the script and there should be notification from the app
 Feel free to modify the scripts
 
 (Optional)
+(Trigger Shortcuts to call the scripts)
 Open Shortcuts
 TODO
