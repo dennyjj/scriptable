@@ -27,4 +27,6 @@ Feel free to modify the scripts
 (Optional)
 (Trigger Shortcuts to call the scripts)
 Open Shortcuts
+Set up the trigger, such as run the script when you leave certain places
+Select Scriptable and then the script
 TODO
