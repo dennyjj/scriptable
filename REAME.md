@@ -18,15 +18,14 @@ https://opendata.mtr.com.hk/doc/MTR_BUS_DataDictionary_v1.10.pdf
 
 ### Getting Started
 
-Install Scriptable on your iPhone
-Add script
-Paste the script from .mjs files
-Run the script and there should be notification from the app
-Feel free to modify the scripts
+1. Install Scriptable on your iPhone
+2. Add script
+3. Paste the code from .mjs files
+4. Run the script and there should be notification from the app
+5. Feel free to modify the scripts
 
-(Optional)
-(Trigger Shortcuts to call the scripts)
-Open Shortcuts
-Set up the trigger, such as run the script when you leave certain places
-Select Scriptable and then the script
-TODO
+#### (Optional) Trigger Shortcuts to call the scripts
+
+1. Open Shortcuts
+2. Set up the trigger, such as run the script when you leave certain places
+3. Select Scriptable and then the script
