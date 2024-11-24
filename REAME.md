@@ -8,14 +8,6 @@ The two scripts in this repo are to send you notifications with the next MTR bus
 https://apps.apple.com/us/app/scriptable/id1405459188
 https://scriptable.app/
 
-### MTR Bus API Spec
-
-https://opendata.mtr.com.hk/doc/MTR_BUS_API_Spec_v1.2.pdf
-
-### MTR Bus Data Dictionary
-
-https://opendata.mtr.com.hk/doc/MTR_BUS_DataDictionary_v1.10.pdf
-
 ### Getting Started
 
 1. Install Scriptable on your iPhone
@@ -29,3 +21,11 @@ https://opendata.mtr.com.hk/doc/MTR_BUS_DataDictionary_v1.10.pdf
 1. Open Shortcuts
 2. Set up the trigger, such as run the script when you leave certain places
 3. Select Scriptable and then the script
+
+### MTR Bus API Spec
+
+https://opendata.mtr.com.hk/doc/MTR_BUS_API_Spec_v1.2.pdf
+
+### MTR Bus Data Dictionary
+
+https://opendata.mtr.com.hk/doc/MTR_BUS_DataDictionary_v1.10.pdf
