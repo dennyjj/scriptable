@@ -5,7 +5,7 @@ const url = 'https://rt.data.gov.hk/v1/transport/mtr/bus/getSchedule';
 const headers = {
   'Content-Type': 'application/json',
 };
-let TPH_BUS_STOP_ID = 'K17-U010';
+const TPH_BUS_STOP_ID = 'K17-U010';
 const METHOD = 'POST';
 const BODY = {
   language: 'zh',
