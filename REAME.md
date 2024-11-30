@@ -19,7 +19,7 @@ https://scriptable.app/
 #### (Optional) Trigger Shortcuts to call the scripts
 
 1. Open Shortcuts
-2. Set up the trigger, such as run the script when you leave certain places
+2. Set up the trigger, e.g. when you leave certain places / wifi disconnected
 3. Select Scriptable and then the script
 
 ### MTR Bus API Spec
