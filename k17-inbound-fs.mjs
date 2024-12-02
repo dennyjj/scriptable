@@ -12,18 +12,6 @@ const BODY = {
   routeName: 'K17',
 };
 
-// array of texts passed from shortcut
-// should be update to route
-// on hold as it is quite tedious for user to update manually
-const params = args.plainTexts;
-if (params.length) {
-  const routeName = params[0];
-  const busStopId = params[1];
-
-  BODY.routeName = routeName;
-  FS_BUS_STOP_ID = busStopId;
-}
-
 // send request to server
 const req = new Request(url);
 req.method = METHOD;
