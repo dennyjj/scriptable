@@ -5,7 +5,7 @@ const url = 'https://rt.data.gov.hk/v1/transport/mtr/bus/getSchedule';
 const headers = {
   'Content-Type': 'application/json',
 };
-const FS_BUS_STOP_ID = 'K17-D010';
+const BUS_STOP_ID = 'K17-D010';
 const METHOD = 'POST';
 const BODY = {
   language: 'zh',
@@ -26,7 +26,7 @@ if (!data.busStop || !data.busTop.length) {
   title = 'Server停止服務';
   message = `${data.routeStatusRemarkContent}\n${data.footerRemarks}`;
 } else {
-  const buses = data.busStop.find((bs) => bs.busStopId === FS_BUS_STOP_ID).bus;
+  const buses = data.busStop.find((bs) => bs.busStopId === BUS_STOP_ID).bus;
   const firstBus = buses[0];
   const secondBus = buses[1];
   title = 'K17下班車仲有幾耐走';
