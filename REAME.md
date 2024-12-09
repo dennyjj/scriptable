@@ -12,7 +12,7 @@ https://scriptable.app/
 
 1. Install Scriptable on your iPhone
 2. Add script
-3. Paste the code from .mjs files
+3. Copy and paste the code from .mjs files
 4. Run the script and there should be notification from the app
 5. Feel free to modify the scripts (bus route and bus stop id)
 
