@@ -2,6 +2,8 @@
 
 ### Scriptable
 
+![scriptable on app store](image.png)
+
 Scriptable is an IOS App that allows you to run scripts and automations on iPhone, please see the documentation if you are interested
 The two scripts in this repo are to send you notifications with the next MTR bus schedules, compatible with IOS Shortcuts
 
